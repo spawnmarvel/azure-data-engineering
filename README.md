@@ -46,7 +46,33 @@ Data transformation
 Data consolidation
 * Data consolidation is the process of combining data that has been extracted from multiple data sources into a consistent structure - usually to support analytics and reporting.
 
+Common languages
+* SQL, Python, others
 
+### Important data engineering concepts
+
+Operational and analytical data
+* Operational data is usually transactional data that is generated and stored by applications, often in a relational or non-relational database. 
+* Analytical data is data that has been optimized for analysis and reporting, often in a data warehouse.
+
+Streaming data
+* Streaming data refers to perpetual sources of data that generate data values in real-time, often relating to specific events.
+
+Data pipelines
+* Data pipelines are used to orchestrate activities that transfer and transform data.
+
+Data lakes
+* A data lake is a storage repository that holds large amounts of data in native, raw formats.
+* The idea with a data lake is to store everything in its original, untransformed state. This approach differs from a traditional data warehouse, which transforms and processes the data at the time of ingestion.
+
+Data warehouses
+* A data warehouse is a centralized repository of integrated data from one or more disparate sources.
+
+Apache Spark
+* Apache Spark is a parallel processing framework that takes advantage of in-memory processing and a distributed file storage. It's a common open-source software (OSS) tool for big data scenarios.
+
+
+### Data engineering in Microsoft Azure
 
 
 
