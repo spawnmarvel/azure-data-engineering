@@ -137,8 +137,37 @@ There are four stages for processing big data solutions that are common to all a
 
 #### Introduction to Azure Synapse Analytics
 
-https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/
+What is Azure Synapse Analytics
+* Descriptive analytics, which answers the question “What is happening in my business?”
+* Diagnostic analytics, which deals with answering the question “Why is it happening?”.
+* Predictive analytics, which enables you to answer the question “What is likely to happen in the future based on previous trends and patterns?”
+* Prescriptive analytics, which enables autonomous decision making based on real-time or near real-time analysis of data, using predictive analytics.
 
+
+How Azure Synapse Analytics works
+
+Creating and using an Azure Synapse Analytics workspace
+* A Synapse Analytics workspace defines an instance of the Synapse Analytics service in which you can manage the services and data resources needed for your analytics solution.
+
+Working with files in a data lake
+* One of the core resources in a Synapse Analytics workspace is a data lake, in which data files can be stored and processed at scale. A workspace typically has a default data lake, which is implemented as a linked service to an Azure Data Lake Storage Gen2 container.
+
+Ingesting and transforming data with pipelines
+*  Data is extracted from multiple operational sources and transferred to a central data lake or data warehouse for analysis. 
+* Azure Synapse Analytics includes built-in support for creating, running, and managing pipelines that orchestrate the activities necessary to retrieve data from a range of sources, transform the data as required, and load the resulting transformed data into an analytical store.
+
+NOTE!
+
+Pipelines in Azure Synapse Analytics are based on the same underlying technology as Azure Data Factory.
+
+Querying and manipulating data with SQL
+* Azure Synapse Analytics supports SQL-based data querying and manipulation through two kinds of SQL pool
+* * A built-in serverless pool that is optimized for using relational SQL semantics to query file-based data in a data lake.
+* * Custom dedicated SQL pools that host relational data warehouses.
+
+You can use the built-in serverless pool for cost-effective analysis and processing of file data in the data lake [...]
+
+![sql lake ](https://github.com/spawnmarvel/azure-data-engineering/blob/main/images/SQL-DATA.jpg)
 
 
 ## Build data analytics solutions using Azure Synapse serverless SQL pools
