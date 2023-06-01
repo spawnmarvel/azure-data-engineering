@@ -30,6 +30,19 @@ https://learn.microsoft.com/en-us/certifications/azure-data-engineer/
 
 ### Get started with data engineering on Azure
 
+#### What is data engineering
+
+Types of data
+* Structured, table based, relation, or flat file csv
+* Semi-structured, JSON
+* Unstructured, pdf, word and images
+
+Data integration
+
+
+
+
+
 ### Build data analytics solutions using Azure Synapse serverless SQL pools
 
 ### Perform data engineering with Azure Synapse Apache Spark Pools
