@@ -125,9 +125,19 @@ In Azure Blob storage, you can store large amounts of unstructured ("object") da
 ![Enable lake ](https://github.com/spawnmarvel/azure-data-engineering/blob/main/images/hier-namespace.jpg)
 
 
+#### Understand the stages for processing big data
+
+There are four stages for processing big data solutions that are common to all architectures:
+1. Ingest - The ingestion phase identifies the technology and processes that are used to acquire the source data.
+2. Store - The store phase identifies where the ingested data should be placed. Azure Data Lake Storage Gen2 provides a secure and scalable storage solution that is compatible with commonly used big data processing technologies.
+3. Prep and train - The prep and train phase identifies the technologies that are used to perform data preparation and model training and scoring for machine learning solutions. 
+4. Model and serve - Finally, the model and serve phase involves the technologies that will present the data to users.
+
+
 
 #### Introduction to Azure Synapse Analytics
 
+https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/
 
 
 
