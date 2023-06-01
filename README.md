@@ -169,8 +169,35 @@ You can use the built-in serverless pool for cost-effective analysis and process
 
 ![sql lake ](https://github.com/spawnmarvel/azure-data-engineering/blob/main/images/SQL-DATA.jpg)
 
+Processing and analyzing data with Apache Spark
+* Apache Spark is an open source platform for big data analytics. Spark performs distributed processing of files in a data lake by running jobs that can be implemented using any of a range of supported programming languages. 
+
+Exploring data with Data Explorer
+* Azure Synapse Data Explorer is a data processing engine in Azure Synapse Analytics that is based on the Azure Data Explorer service. 
+* Kusto, KQL
+
+Integrating with other Azure data services
+* Azure Synapse Link enables near-realtime synchronization between operational data in Azure Cosmos DB, Azure SQL Database, SQL Server, and Microsoft Power Platform
+* Microsoft Power BI
+* Azure Machine Learning
+
+When to use Azure Synapse Analytics
+* Large-scale data warehousing, 
+* Advanced analytics, 
+* Data exploration and discovery, The serverless SQL pool functionality provided by Azure Synapse Analytics enables Data Analysts, Data Engineers and Data Scientist alike to explore the data within your data estate. This capability supports data discovery, diagnostic analytics, and exploratory data analysis.
+* Real time analytics
+* Data integration, Azure Synapse Pipelines enables you to ingest, prepare, model and serve the data to be used by downstream systems.
+* Integrated analytics
+
+
+
 
 ## Build data analytics solutions using Azure Synapse serverless SQL pools
+
+Use Azure Synapse serverless SQL pool to query files in a data lake
+
+https://learn.microsoft.com/en-us/training/modules/query-data-lake-using-azure-synapse-serverless-sql-pools/
+
 
 ## Perform data engineering with Azure Synapse Apache Spark Pools
 
