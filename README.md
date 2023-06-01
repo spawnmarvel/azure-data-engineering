@@ -74,7 +74,7 @@ Apache Spark
 
 ### Data engineering in Microsoft Azure
 
-
+![Data Engineering in Azure ](https://github.com/spawnmarvel/azure-data-engineering/blob/main/images/data-eng-azure.jpg)
 
 
 ### Build data analytics solutions using Azure Synapse serverless SQL pools
