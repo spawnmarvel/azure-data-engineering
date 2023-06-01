@@ -120,7 +120,7 @@ Compare Azure Data Lake Store to Azure Blob storage
 
 In Azure Blob storage, you can store large amounts of unstructured ("object") data in a flat namespace within a blob container.
 * If you want to store data without performing analysis on the data, set the Hierarchical Namespace option to Disabled to set up the storage account as an Azure Blob storage account. 
-If you are performing analytics on the data, set up the storage account as an Azure Data Lake Storage Gen2 account by setting the Hierarchical Namespace option to Enabled.
+* If you are performing analytics on the data, set up the storage account as an Azure Data Lake Storage Gen2 account by setting the Hierarchical Namespace option to Enabled.
 
 ![Enable lake ](https://github.com/spawnmarvel/azure-data-engineering/blob/main/images/hier-namespace.jpg)
 
