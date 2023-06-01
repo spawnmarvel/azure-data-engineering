@@ -20,6 +20,10 @@ Skills measured
 * Develop data processing (40–45%)
 * Secure, monitor, and optimize data storage and data processing (30–35%)
 
+## dp-203-azure-data-engineer/Instructions/Labs/
+
+https://github.com/MicrosoftLearning/dp-203-azure-data-engineer/tree/master/Instructions/Labs
+
 ## MS Learn
 
 https://learn.microsoft.com/en-us/certifications/azure-data-engineer/
