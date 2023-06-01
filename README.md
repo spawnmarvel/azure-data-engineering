@@ -38,6 +38,14 @@ Types of data
 * Unstructured, pdf, word and images
 
 Data integration
+* Data Integration involves establishing links between operational and analytical services and data sources to enable secure, reliable access to data across multiple systems. 
+
+Data transformation
+* Operational data usually needs to be transformed into suitable structure and format for analysis, often as part of an extract, transform, and load (ETL) process; though increasingly a variation in which you extract, load, and transform (ELT)
+
+Data consolidation
+* Data consolidation is the process of combining data that has been extracted from multiple data sources into a consistent structure - usually to support analytics and reporting.
+
 
 
 
